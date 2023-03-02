@@ -1,0 +1,118 @@
+body {
+  background-color: mistyrose;
+  margin: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: flex;
+}
+
+.left {
+  background-color: mistyrose;
+  height: 1080px;
+  width: 860px;
+}
+
+.main-container {
+  display: flex;
+  margin-left: 220px;
+}
+
+#highlights {
+  font-size: xx-large;
+  margin-left: 100px;
+  font-family: helvetica;
+}
+
+#Loyiso {
+  margin: 75px;
+}
+
+.right {
+  background-color: mistyrose;
+  height: 1080px;
+  width: 620px;
+  display: flex;
+}
+
+#c0 {
+  background-color: mistyrose;
+  width: 960px;
+  height: 100px;
+  display: grid;
+}
+
+#icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+#icon ul {
+  display: grid;
+  margin: 0 auto;
+}
+
+#icon ul li {
+  height: 20px;
+  margin-bottom: 40px;
+}
+#icon img {
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+#c1 {
+  background-color: mistyrose;
+  width: 240px;
+}
+
+#dc-comic {
+  margin-top: 300px;
+}
+
+#kwezi-issue {
+  margin-top: 90px;
+  border-radius: 10px;
+}
+
+#c2 {
+  background-color: mistyrose;
+  width: 240px;
+}
+
+#untitled {
+  margin-top: 200px;
+}
+
+#kwezi-issue-7-9 {
+  margin-top: 100px;
+}
+
+#c3 {
+  background-color: mistyrose;
+  width: 240px;
+}
+
+#madeleine-figurative {
+  margin-top: 100px;
+}
+
+#kwezi-5 {
+  margin-top: 75px;
+}
+
+#c4 {
+  background-color: mistyrose;
+  width: 240px;
+}
+
+img {
+  box-shadow: inset 0 0 0 0 mistyrose;
+  color: white;
+  padding: 0 0.25rem;
+  margin: 0 -0.25rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+img:hover {
+  color: mistyrose;
+  box-shadow: inset 700px 0 0 0 white;
+}

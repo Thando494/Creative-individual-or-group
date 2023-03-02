@@ -1,0 +1,78 @@
+body {
+  background-color: darkkhaki;
+  margin: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: flex;
+}
+
+#left {
+  background-color: darkkhaki;
+  width: 960px;
+  height: 540px;
+}
+
+#right {
+  background-color: darkkhaki;
+  width: 960px;
+  height: 540px;
+}
+
+#icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+#icon ul {
+  display: grid;
+  margin: 0 auto;
+}
+
+#icon ul li {
+  height: 20px;
+  margin-bottom: 40px;
+}
+#icon img {
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+#Loyiso-Mkhize {
+  width: 100px;
+  height: 150px;
+  margin: 25px;
+  font-size: 10rem;
+  margin-bottom: 700px;
+}
+
+#Visual-artist {
+  margin-left: -10px;
+  margin-bottom: 500px;
+}
+
+li {
+  display: inline;
+  padding: 5px;
+}
+
+.item1 {
+  display: grid;
+  background-color: darkkhaki;
+  width: 460px;
+  height: 100px;
+}
+
+.container {
+  display: grid;
+  background-color: darkkhaki;
+  width: 700px;
+  height: 1080px;
+}
+
+.container2 {
+  display: grid;
+  background-color: darkkhaki;
+  width: 500px;
+  height: 1080px;
+}
+
